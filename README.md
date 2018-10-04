@@ -1,0 +1,6 @@
+# CourseraDataProductShiny
+Coursera Regression Shiny App
+This application analyzes regression models and a support vector machine of chick weights under different time and diets. The application tries to predict the weight of chicks over time that are on different diets.
+On the left hand side of the application is a list of different regression features that are used to predict weights. Each variable in the list is used to predict the weight of the chicks. There are several tabs at the top of the application. 
+The first tab introduces the data with part of the dataset displayed, summary statistics and a correlation matrix plot.
+The second tab shows information about the regression model such as relevance of attributes and standard error. The third tab shows the percentage error of the regression model. It shows the distance between actual values and predicted values of chick weights by the regression models. The last tab shows an evaluation of residuals in the regression models. This shows the distribution of prediction values about the mean to find if it is a normal model, if there are outliers and if there are any patterns in the data that would inform the modeler to alter the model.
